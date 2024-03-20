@@ -1,0 +1,19 @@
+append(String str): Appends the specified string to the StringBuilder/StringBuffer.
+
+insert(int offset, String str): Inserts the specified string at the specified position.
+
+delete(int start, int end): Deletes the characters from start index to end index - 1.
+
+deleteCharAt(int index): Deletes the character at the specified index.
+
+reverse(): Reverses the characters in the StringBuilder/StringBuffer.
+
+charAt(int index): Returns the character at the specified index.
+
+length(): Returns the length of the StringBuilder/StringBuffer.
+
+
+Common Methods for StringBuilder and StringBuffer:
+toString(): Converts the StringBuilder/StringBuffer to a String.
+
+capacity(): Returns the current capacity of the StringBuilder/StringBuffer.
