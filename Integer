@@ -1,0 +1,39 @@
+Parsing and Conversion:
+
+parseInt(String s): Parses the string argument as a signed decimal integer.
+
+valueOf(int i): Returns an Integer instance representing the specified int value.
+
+valueOf(String s): Returns an Integer object holding the value of the specified string.
+
+
+Arithmetic Operations:
+
+intValue(): Returns the value of this Integer as an int.
+
+longValue(): Returns the value of this Integer as a long.
+
+floatValue(): Returns the value of this Integer as a float.
+
+doubleValue(): Returns the value of this Integer as a double.
+
+compareTo(Integer anotherInteger): Compares two Integer objects numerically.
+
+
+Bitwise Operations:
+
+bitCount(int i): Returns the number of one-bits in the two's complement binary representation of the specified int value.
+
+
+String Representation:
+
+toBinaryString(int i): Returns a string representation of the integer argument as an unsigned integer in base 2.
+
+toHexString(int i): Returns a string representation of the integer argument as an unsigned integer in base 16.
+
+
+Other:
+
+equals(Object obj): Compares this object to the specified object.
+
+toString(): Returns a string representation of the object.
