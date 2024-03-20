@@ -1,0 +1,26 @@
+add(E e): Appends the specified element to the end of this list.
+
+add(int index, E element): Inserts the specified element at the specified position in this list.
+
+get(int index): Returns the element at the specified position in this list.
+
+remove(int index): Removes the element at the specified position in this list.
+
+size(): Returns the number of elements in this list.
+
+isEmpty(): Returns true if this list contains no elements.
+
+clear(): Removes all of the elements from this list.
+
+contains(Object o): Returns true if this list contains the specified element.
+
+indexOf(Object o): Returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element.
+
+lastIndexOf(Object o): Returns the index of the last occurrence of the specified element in this list, or -1 if this list does not contain the element.
+
+toArray(T[] a): Returns an array containing all of the elements in this list in proper sequence; the runtime type of the returned array is that of the specified array.
+eg.
+ArrayList<String> arrayList = new ArrayList<>();
+String[] array2 = new String[arrayList.size()];
+        array2 = arrayList.toArray(array2);
+
