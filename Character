@@ -1,0 +1,24 @@
+Character.isLetter(char c): Returns true if the specified character is a letter.
+
+Character.isDigit(char c): Returns true if the specified character is a digit.
+
+Character.isLetterOrDigit(char c): Returns true if the specified character is a letter or digit.
+
+Character.isWhitespace(char c): Returns true if the specified character is whitespace.
+
+Character.isUpperCase(char c): Returns true if the specified character is uppercase.
+
+Character.isLowerCase(char c): Returns true if the specified character is lowercase.
+
+
+Character.toUpperCase(char c): Converts the specified character to uppercase.
+
+Character.toLowerCase(char c): Converts the specified character to lowercase.
+
+Character.toString(char c) or String.valueOf(char c): Returns a String object representing the specified character.
+
+
+Character.compare(char x, char y): Compares two char values numerically.
+
+Character.getNumericValue(char c): Returns the int value that the specified Unicode character represents.
+
