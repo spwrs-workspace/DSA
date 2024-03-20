@@ -1,0 +1,10 @@
+Arrays.sort(arr): Sorts the array arr.
+
+Arrays.copyOf(arr, length): Copies the array arr to a new array of length length.
+
+Arrays.fill(arr, value): Fills the array arr with the specified value.
+
+Arrays.binarySearch(arr, key): Searches the array arr for the specified key using binary search.
+
+equals(a1, a2): Returns true if the two specified arrays of objects are equal to one another.
+
