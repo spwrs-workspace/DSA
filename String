@@ -1,0 +1,31 @@
+charAt(int index): Returns the character at the specified index.
+
+length(): Returns the length of the string.
+
+substring(int beginIndex): Returns a substring starting from the specified index.
+
+substring(int beginIndex, int endIndex): Returns a substring from the specified begin index to the end index.
+
+indexOf(String str): Returns the index within the string of the first occurrence of the specified substring.
+
+lastIndexOf(String str): Returns the index within the string of the last occurrence of the specified substring.
+
+startsWith(String prefix): Checks if the string starts with the specified prefix.
+
+endsWith(String suffix): Checks if the string ends with the specified suffix.
+
+toUpperCase(): Converts all characters in the string to uppercase.
+
+toLowerCase(): Converts all characters in the string to lowercase.
+
+trim(): Removes leading and trailing whitespaces from the string.
+
+replace(char oldChar, char newChar): Replaces all occurrences of the specified old character with the new character.
+
+split(String regex): Splits the string using the specified regular expression.
+
+equals(Object obj): Compares this string to the specified object.
+
+compareTo(String anotherString): Compares two strings lexicographically.
+
+Integer.parseInt(str), Integer.valueOf(str): to convert String to int;
