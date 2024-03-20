@@ -1,0 +1,31 @@
+Math.abs(x): Returns the absolute value of a number x.
+
+Math.max(a, b): Returns the greater of two numbers a and b.
+
+Math.min(a, b): Returns the smaller of two numbers a and b.
+
+Math.ceil(x): Returns the smallest integer that is greater than or equal to the argument x.
+
+Math.floor(x): Returns the largest integer that is less than or equal to the argument x.
+
+Math.round(x): Returns the closest integer to the argument x.
+
+Math.pow(base, exponent): Returns the value of the base raised to the power of the exponent.
+
+Math.sqrt(x): Returns the square root of a number x.
+
+Math.exp(x): Returns the value of the Euler's number e raised to the power of x.
+
+Math.log(x): Returns the natural logarithm (base e) of a number x.
+
+Math.log10(x): Returns the base 10 logarithm of a number x.
+
+Math.sin(x): Returns the sine of an angle x (in radians).
+
+Math.cos(x): Returns the cosine of an angle x (in radians).
+
+Math.tan(x): Returns the tangent of an angle x (in radians).
+
+Math.toDegrees(x): Converts an angle measured in radians to degrees.
+
+Math.toRadians(x): Converts an angle measured in degrees to radians.
