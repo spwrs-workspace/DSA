@@ -1,0 +1,9 @@
+HashSet:
+
+HashSet.add(element): Adds the specified element to the HashSet.
+
+HashSet.contains(element): Checks if the HashSet contains the specified element.
+
+HashSet.remove(element): Removes the specified element from the HashSet.
+
+HashSet.size(): Returns the number of elements in the HashSet.
