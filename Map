@@ -1,0 +1,9 @@
+HashMap:
+
+HashMap.put(key, value): Inserts a key-value pair into the HashMap.
+
+HashMap.get(key): Returns the value associated with the specified key.
+
+HashMap.containsKey(key): Checks if the HashMap contains the specified key.
+
+HashMap.size(): Returns the number of key-value mappings in the HashMap.
