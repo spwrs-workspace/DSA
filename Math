@@ -8,7 +8,9 @@ Math.ceil(x): Returns the smallest integer that is greater than or equal to the 
 
 Math.floor(x): Returns the largest integer that is less than or equal to the argument x.
 
-Math.round(x): Returns the closest integer to the argument x.
+Math.round(x): Returns the closest integer to the argument x. 
+If the fractional part is < 0.5, it rounds down.
+If the fractional part is >= 0.5, it rounds up.
 
 Math.pow(base, exponent): Returns the value of the base raised to the power of the exponent.
 
