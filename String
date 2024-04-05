@@ -28,6 +28,6 @@ split(String regex): Splits the string using the specified regular expression.
 
 equals(Object obj): Compares this string to the specified object.
 
-compareTo(String anotherString): Compares two strings lexicographically.
+compareTo(String anotherString): Compares two strings lexicographically. (By dictionary Order)
 
 Integer.parseInt(str), Integer.valueOf(str): to convert String to int;
