@@ -2,8 +2,25 @@ HashMap:
 
 HashMap.put(key, value): Inserts a key-value pair into the HashMap.
 
+HashMap.remove(key): removes a key-value pair from the HashMap if it present.
+If the map contains the specified key, the mapping associated with that key is removed from the map, and the removed value is returned.
+If the map does not contain the specified key, the method simply returns null, indicating that there was no mapping for that key.
+
 HashMap.get(key): Returns the value associated with the specified key.
 
 HashMap.containsKey(key): Checks if the HashMap contains the specified key.
 
+HashMap.containsValue(val): Checks if the HashMap contains the specified value.
+
 HashMap.size(): Returns the number of key-value mappings in the HashMap.
+
+Set<Object> keys = map.keySet() : This method returns a Set view of the keys contained in this map.
+
+Collection<Object> values = map.values(): This method returns a Collection view of the values contained in this map.
+we can use it as: for (Object value : values) {}
+
+Set<Map.Entry<Object, Object>> entries = map.entrySet(): This method returns a Set view of the mappings contained in this map.
+
+
+
+
