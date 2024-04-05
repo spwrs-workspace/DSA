@@ -1,0 +1,35 @@
+Using Map.Entry(Interface):
+
+Map.Entry<Integer, String> pair = Map.entry(1, "one");
+note that Map.entry() method was introduced in Java 9
+
+Map.Entry<Integer, String> pair = new AbstractMap.SimpleEntry(1, "one");
+------------------------------------------------------------------------
+Using AbstractMap.SimpleEntry:
+
+If you're using versions earlier than Java 9, you can use AbstractMap.SimpleEntry.
+AbstractMap.SimpleEntry<Integer, String> pair = new AbstractMap.SimpleEntry<>(1, "one");
+
+--------------------------------------------------------------------------------------------
+Custom Pair Class:
+
+public class Pair<A, B> {
+    private final A first;
+    private final B second;
+
+    public Pair(A first, B second) {
+        this.first = first;
+        this.second = second;
+    }
+
+    public A getFirst() {
+        return first;
+    }
+
+    public B getSecond() {
+        return second;
+    }
+}
+
+Pair<Integer, String> pair = new Pair<>(1, "one");
+
