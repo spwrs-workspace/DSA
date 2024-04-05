@@ -19,6 +19,3 @@ Character.toString(char c) or String.valueOf(char c): Returns a String object re
 
 
 Character.compare(char x, char y): Compares two char values numerically.
-
-Character.getNumericValue(char c): Returns the int value that the specified Unicode character represents.
-
