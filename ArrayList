@@ -6,6 +6,8 @@ get(int index): Returns the element at the specified position in this list.
 
 remove(int index): Removes the element at the specified position in this list.
 
+Collection.reverse(list): to reverse the list;
+
 size(): Returns the number of elements in this list.
 
 isEmpty(): Returns true if this list contains no elements.
