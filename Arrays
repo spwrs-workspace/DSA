@@ -1,6 +1,8 @@
 Arrays.sort(arr): Sorts the array arr.
 
-Arrays.copyOf(arr, length): Copies the array arr to a new array of length length.
+Arrays.sort(arr, start, end): sorts the array arr from start(inclusive) to end(exclusive).
+
+newArr = Arrays.copyOf(arr, length): Copies the array arr to a new array of length length.
 
 Arrays.fill(arr, value): Fills the array arr with the specified value.
 
